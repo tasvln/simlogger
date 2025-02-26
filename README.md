@@ -1,10 +1,8 @@
 # SDL Game Menu Template
 
-<code>basic game menu template</code>
+<code>Simple Game Logger</code>
 
-- Menu System Design
-- basic state management (revisted functionals - it's basically just react useStates)
-- Functions (actions) should be created with a different virtual function
+- [to be added]
 
 ### Installation
 1. Clone the repository
