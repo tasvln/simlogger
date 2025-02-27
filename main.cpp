@@ -4,7 +4,7 @@ bool loadMedia()
 {
   bool loading = true;
 
-  gFont = TTF_OpenFont("lib/inter.ttf", 28);
+  gFont = TTF_OpenFont("lib/fonts/inter.ttf", 28);
 
   if (gFont == NULL)
   {
