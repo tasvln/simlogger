@@ -1,6 +1,6 @@
-# SDL Game Menu Template
+# Simple Logger
 
-<code>Simple Game Logger</code>
+<code>A Simple Debugging and Console logging tool</code>
 
 - Debugging Tool
 - Console Logging & In-Game/On-Screen Logs
