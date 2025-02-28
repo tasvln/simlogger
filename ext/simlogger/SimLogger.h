@@ -4,6 +4,9 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include "imgui/imgui.h"
+#include "imgui/imgui_impl_sdl2.h"
+#include "imgui/imgui_impl_opengl3.h"
 
 enum DEBUG_TYPE
 {
@@ -46,7 +49,11 @@ namespace SimLog
         return;
       for (const auto &log : logs)
       {
-        log.c_str();
+        ImGui::Begin("Debug Console");
+
+        ImGui::TextUnformatted(log.c_str());
+
+        ImGui::End();
       }
     }
 
